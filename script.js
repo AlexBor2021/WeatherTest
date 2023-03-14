@@ -38,7 +38,6 @@ let fetchData = async () => {
    document.querySelector('.windSpeed').innerHTML = `Скорость ветра: ${store.windSpeed} м/с`;
    document.querySelector('.cloudcover').innerHTML = `Облачность: ${store.cloudcover} %`;
    document.querySelector('.time').innerHTML = `Время: ${store.observationTime}`;
-
 }
 
 const setText = () =>{
